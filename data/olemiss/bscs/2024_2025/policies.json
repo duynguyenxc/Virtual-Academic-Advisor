@@ -1,0 +1,19 @@
+{
+  "program": "BS in Computer Science",
+  "catalog_year": "2024-2025",
+  "policies": {
+    "credit_min_fulltime": 12,
+    "credit_max_standard": 19,
+    "credit_max_overload": 22,
+    "overload_gpa_threshold": 3.0,
+    "min_total_credits": 127,
+    "school_gpa_min": 2.0,
+    "repeat_policy": "If a required course is failed, it must be repeated until passed with the minimum grade required (usually C-).",
+    "lab_science_policy": "Lab Science must be a two-course sequence with labs in the same field (CHEM, PHYS, or BISC).",
+    "minor_or_tech_elective_policy": "Students must complete 18 credits in either an approved minor OR advisor-approved technical electives.",
+    "csci_electives_policy": "Students must complete 15 credits of CSCI courses at the 300 level or higher beyond the core.",
+    "emphasis_policy": "Students may optionally complete one emphasis (Data Science or Computer Security).",
+    "speech_policy": "Either SPCH 102 or SPCH 105 may be taken to satisfy the speech requirement.",
+    "writing_policy": "First-year writing sequence must be completed in the first year of study."
+  }
+}

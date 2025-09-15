@@ -1,0 +1,611 @@
+[
+  {
+    "title": "CIS 111: Computer Science I",
+    "credits": "3",
+    "description": "Introduction to computer science with emphasis on problem solving and\nalgorithm development. Using high-level, block-structured programming\nlanguage, students design, implement, debug, test, and document computer\nprograms for various applications.",
+    "prerequisites": "Pre-requisite: Minimum ACT mathematics score of 22; or minimum SAT mathematics score of 540; or Math 121 or above; or ALEKS PPL score of 61Pre-requisite: Non-engineering Majors Only",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/cis-111"
+  },
+  {
+    "title": "CIS 112: Computer Science II",
+    "credits": "3",
+    "description": "Continuation of Csci 111 with emphasis on computer programming as a\nsystematic discipline. The topics include data structures, abstract data\ntypes, algorithm design and analysis, and programming methods and\nstandards.",
+    "prerequisites": "Prerequisite: Csci 111 or CIS 111 or Csci 113 or CIS 113 (Minimum grade C-).",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/cis-112"
+  },
+  {
+    "title": "CIS 113: Honors Computer Science I",
+    "credits": "3",
+    "description": "Introduction to computer science with an emphasis on problem solving and\nalgorithm development. Using high-level, block-structured programming\nlanguage, students will design, implement, debug, test, and document\ncomputer programs.  In addition, topics related to data structures,\nabstract data types, algorithm design and analysis will also be\nemphasized.",
+    "prerequisites": "Limited to students in the Sally McDonnell Barksdale Honors CollegePre-requisite: Math ACT 22 or Math 121 (or above)",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/cis-113"
+  },
+  {
+    "title": "CIS 211: Computer Science III",
+    "credits": "3",
+    "description": "Continuation of Csci 112 with emphasis on advanced data structures,\nalgorithm design analysis, advanced programming techniques, and user\ninterfaces.",
+    "prerequisites": "Prerequisite: Csci 112 (minimum C-) or CIS 112 (minimum C-) or Csci 113 (minimum B-) or CIS 113 (minimum B-)",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/cis-211"
+  },
+  {
+    "title": "CIS 251: Programming for Engineering and Sciences",
+    "credits": "3",
+    "description": "Algorithm development and structured programming techniques; numerical\nand graphical applications related to engineering and scientific problem\nsolving.  Co-requisite for this course may also be satisfied by consent\nof instructor.",
+    "prerequisites": null,
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/cis-251"
+  },
+  {
+    "title": "CIS 256: Programming in Python",
+    "credits": "3",
+    "description": "Problem solving, algorithm development, and programming techniques,\nincluding applications from a range of disciplines.",
+    "prerequisites": "Prerequisite: Minimum ACT mathematics score of 22; or minimum SAT mathematics score of 540; or Math 121 or above; or ALEKS PPL score of 61.",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/cis-256"
+  },
+  {
+    "title": "CIS 333: Digital Design and 3D Printing",
+    "credits": "3",
+    "description": "This course introduces the principles and methods for computer-aided\ndesign of objects that can be rendered effectively on 3D printers. It\nsurveys the design techniques and the hardware and software technologies\nin 3D printing workflows. Students create designs and render them on 3D\nprinters.",
+    "prerequisites": "Prerequisite:  Csci 112 or CIS 112 or Csci 251 or CIS 251 or Csci 256.Pre-Requisite: 24 Earned HoursPre-requisite: Non-engineering Majors Only",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/cis-333"
+  },
+  {
+    "title": "CIS 356: Data Structures in Python",
+    "credits": "3",
+    "description": "This course will introduce data structures and their application using\nthe Python programming language. Abstract data types for stack, queue,\nvarious lists, trees and graphs will be studied. Built-in data\nstructures such as lists, dictionaries, and tuples will be used\nextensively.",
+    "prerequisites": "Pre-Requisite: 24 Earned HoursPre-requisite Csci 256 (C-) OR Csci 112 OR CIS 112 (C-) OR Csci 113 OR CIS 113 B-.",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/cis-356"
+  },
+  {
+    "title": "CIS 427: Network Security",
+    "credits": "3",
+    "description": "This course explores the concepts and methods of computer security with\nan emphasis on network security and the appropriate tools to identify\nand remedy vulnerabilities across leading network platforms. It\nemphasizes both offensive and defensive analysis tools, including\nscanners, sniffers, intrusion detection systems, and firewalls.",
+    "prerequisites": "Csci 325: Foundations of Computer Security(Minimum grade: C-)Csci 361: Introduction to Computer Networks(Minimum grade: C-)Pre-requisite: 24 or more earned hours.",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/cis-427"
+  },
+  {
+    "title": "CIS 447: Immersive Media",
+    "credits": "3",
+    "description": "This course explores the applications, methods, and technologies for the\nrealization of immersive virtual environments. Students will develop\nvirtual reality applications, immersive virtual worlds, and interactive\nmedia. Topics include virtual reality, augmented reality, 3D content\nauthoring, motion tracking, and current trends in immersive media.",
+    "prerequisites": "Pre-requisite: 24 or more earned hours.Prerequisite: Csci 211 or CIS 211 or Csci 343 or Csci 356 or CIS 356",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/cis-447"
+  },
+  {
+    "title": "Csci 103: Survey of Computing",
+    "credits": "3",
+    "description": "Introduction to computers and computing for students with no prior\ncomputer experience.",
+    "prerequisites": "Course cannot be booked if completed Csci 112/CIS 112 with a grade of C- or better OR Csci 113/CIS 113 with a grade of B- or better.",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-103"
+  },
+  {
+    "title": "Csci 111: Computer Science I",
+    "credits": "3",
+    "description": "Introduction to computer science with emphasis on problem solving and\nalgorithm development.  Using high-level, block-structured programming\nlanguage, students design, implement, debug, test, and document computer\nprograms for various applications.",
+    "prerequisites": "Pre-requisite: Minimum ACT mathematics score of 22; or minimum SAT mathematics score of 540; or Math 121 or above; or ALEKS PPL score of 61Pre-Requisite: Engineering Majors Only",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-111"
+  },
+  {
+    "title": "Csci 112: Computer Science II",
+    "credits": "3",
+    "description": "Continuation of CSCI 111 with emphasis on computer programming as a\nsystematic discipline.  The topics include data structures, abstract\ndata types, algorithm design and analysis, and programming methods and\nstandards.",
+    "prerequisites": "Engineering students only.Prerequisite: Csci 111 or CIS 111 or Csci 113 or CIS 113 (Minimum grade C-).",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-112"
+  },
+  {
+    "title": "Csci 113: Honors Computer Science I",
+    "credits": "3",
+    "description": "Introduction to computer science with an emphasis on problem solving and\nalgorithm development. Using high-level, block-structured programming\nlanguage, students will design, implement, debug, test, and document\ncomputer programs.  In addition, topics related to data structures,\nabstract data types, algorithm design and analysis will also be\nemphasized.",
+    "prerequisites": "Limited to students in the Sally McDonnell Barksdale Honors CollegePre-requisite: Math ACT 22 or Math 121 (or above)Engineering students only.",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-113"
+  },
+  {
+    "title": "Csci 191: Office Applications",
+    "credits": "3",
+    "description": "Introduction to the use of computers with emphasis on the Windows\nplatform and the Microsoft Office suite of application tools. (Not to be\nused to satisfy computer science major requirements).",
+    "prerequisites": "Course cannot be booked if completed Csci 112/CIS 112 with a grade of C- or better OR Csci 113/CIS 113 with a grade of B- or better.",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-191"
+  },
+  {
+    "title": "Csci 192: Computing Applications",
+    "credits": "3",
+    "description": "Introduction to the use of computers with emphasis on the Windows\nplatform and the WordPerfect suite of application tools. (Not to be used\nto satisfy computer science major requirements).",
+    "prerequisites": null,
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-192"
+  },
+  {
+    "title": "Csci 193: Personal Computer Systems",
+    "credits": "3",
+    "description": "Study of the hardware and software components of personal computer\nsystems for experienced computer users. (Not to be used to satisfy\ncomputer science major requirements).",
+    "prerequisites": null,
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-193"
+  },
+  {
+    "title": "Csci 203: Introduction to Computational Media",
+    "credits": "3",
+    "description": "This course introduces computing and programming with emphasis on\ninteractive media, including graphics, images, animation, and sound. It\nexplores core computing concepts such as variables, conditionals, loops,\nfunctions, objects, arrays, and algorithms",
+    "prerequisites": "Pre-requisite: Math ACT 22 or Math 121 (or above)Prerequisite: Math ACT 22 or Math SAT 550 or Math 115 (or above, excluding Math 120 and Math 167)",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-203"
+  },
+  {
+    "title": "Csci 211: Computer Science III",
+    "credits": "3",
+    "description": "Continuation of Csci 112 with emphasis on advanced data structures,\nalgorithm design analysis, advanced programming techniques, and user\ninterfaces.",
+    "prerequisites": "Engineering students only.Prerequisite: Csci 112 (minimum C-) or CIS 112 (minimum C-) or Csci 113 (minimum B-) or CIS 113 (minimum B-)",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-211"
+  },
+  {
+    "title": "Csci 223: Computer Org. &  Assembly Language",
+    "credits": "3",
+    "description": "Introduction to the architecture of computer systems.  The topics\ninclude processor and external device structures and operation, machine\noperation, machine operations and instructions, assembly language\nconcepts, and assembly language programming.",
+    "prerequisites": "Pre-requisite: Csci 112 or CIS 112 (Minimum grade: C-); or Csci 113 or CIS 113 (Minimum grade: B-) or Csci 256 or CIS 256 (Minimum grade C-).",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-223"
+  },
+  {
+    "title": "Csci 251: Programming for Engineering and Sciences",
+    "credits": "3",
+    "description": "Algorithm development and structured programming techniques; numerical\nand graphical applications related to engineering and scientific problem\nsolving.",
+    "prerequisites": "Engineering students only.Csci 251 Requires: One Way-Co-Requisite Math 261",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-251"
+  },
+  {
+    "title": "Csci 256: Programming in Python",
+    "credits": "3",
+    "description": "Problem solving, algorithm development, and programming techniques,\nincluding applications from a range of disciplines.",
+    "prerequisites": "Prerequisite: Minimum ACT mathematics score of 22; or minimum SAT mathematics score of 540; or Math 121 or above; or ALEKS PPL score of 61.",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-256"
+  },
+  {
+    "title": "Csci 259: Programming in C++",
+    "credits": "3",
+    "description": "Study of programming in the language C++, covering character processing;\nuse of pointers with strings, arrays and functions; data structures;\nbitwise operators.",
+    "prerequisites": "Pre-requisite: Minimum ACT mathematics score of 22; or minimum SAT mathematics score of 540; or Math 121 or above; or ALEKS PPL score of 61Csci 111 or Csci 251",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-259"
+  },
+  {
+    "title": "Csci 300: Social Responsibility in Comp. Science",
+    "credits": "1",
+    "description": "Study of the nature of and need for social responsibility and ethical\nbehavior in computing and the computer professions.",
+    "prerequisites": "Pre-Requisite: 24 Earned HoursPrerequisite: Csci 211 OR CIS 211 OR Csci 223 OR Csci 356 OR CIS 356.",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-300"
+  },
+  {
+    "title": "Csci 305: Software for Global Use",
+    "credits": "3",
+    "description": "Study of the principles and practice of software internationalization\nwith emphasis on the design and customization of software to accommodate\nlinguistic and cultural diversity.",
+    "prerequisites": "Pre-Requisite: 24 Earned HoursPrerequisite: Csci 211 OR CIS 211 or Csci 356 or CIS 356",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-305"
+  },
+  {
+    "title": "Csci 311: Models of Computation",
+    "credits": "3",
+    "description": "Introduction to the theoretical foundations of computer science,\nincluding automata and formal languages.",
+    "prerequisites": "Pre-Requisite: 24 Earned HoursPrerequisite: Csci 112 or CIS 112 (Minimum grade: C-); or Csci 113 or CIS 113 (Minimum grade: B-)",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-311"
+  },
+  {
+    "title": "Csci 323: Systems of Programming",
+    "credits": "3",
+    "description": "Study of a contemporary operating system and its set of tools from the\nperspective of software professionals and system administrators.  The\ncourse analyzes the system components and their interactions, the tool\nenvironment, and system administration issues such as configuration,\ninstallation, networking, security, and performance tuning.",
+    "prerequisites": "Pre-Requisite: 24 Earned HoursPrerequisite: Csci 112 or CIS 112 (minimum grade: C-); or Csci 113 or CIS 113 (minimum grade: B-); or Csci 256 or CIS 256 (minimum grade: C-)",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-323"
+  },
+  {
+    "title": "Csci 325: Foundations of Computer Security",
+    "credits": "3",
+    "description": "This course covers fundamental tools and concepts of computer security.\nTopics include symmetric and asymmetric cryptography, cryptographic\nhashing, basic security principles, and legal and ethical issues.",
+    "prerequisites": "Csci 223: Computer Org. &  Assembly Language(Minimum grade: C-)Pre-Requisite: 24 Earned Hours",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-325"
+  },
+  {
+    "title": "Csci 333: Digital Design and 3D Printing",
+    "credits": "3",
+    "description": "This course introduces the principles and methods for computer-aided\ndesign of objects that can be rendered effectively on 3D printers. It\nsurveys the design techniques and the hardware and software technologies\nin 3D printing workflows. Students create designs and render them on 3D\nprinters.",
+    "prerequisites": "Prerequisite:  Csci 112 or CIS 112 or Csci 251 or CIS 251 or Csci 256.Pre-Requisite: 24 Earned HoursPre-Requisite: Engineering Majors Only",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-333"
+  },
+  {
+    "title": "Csci 343: Fundamentals of Data Science",
+    "credits": "3",
+    "description": "Data science is the study of discovering knowledge from data. This\ncourse explores the field using a broad perspective. Topics include data\ncollection and integration, exploratory data analysis, descriptive\nstatistics, prediction, and regression, and evaluating and communicating\nresults. Significant programming is required.",
+    "prerequisites": "Prerequisite: Csci 112 or CIS 112 or Csci 251 or CIS 251 or Csci 256; or Csci 113 or CIS 113 (Minimum grade: B-)Pre-Requisite: 24 Earned Hours",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-343"
+  },
+  {
+    "title": "Csci 345: Information Storage and Retrieval",
+    "credits": "3",
+    "description": "Examination of systems for storage and retrieval of information in\ntextual and other formats.  The topics include query processing,\nmatching and ranking algorithms, text analysis, user interfaces, and\nevaluation of retrieval effectiveness.",
+    "prerequisites": "Pre-Requisite: 24 Earned HoursPrerequisite: Csci 211 or CIS 211 or Csci 343 or Csci 356 or CIS 356",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-345"
+  },
+  {
+    "title": "Csci 353: Introduction to Numerical Methods",
+    "credits": "3",
+    "description": "This course provides an overview of numerical methods and optimization\ntechniques, laying the foundation for advanced studies in machine\nlearning, data science, and related engineering disciplines. It covers\nfundamental concepts like numerical errors and algorithm efficiency,\ndelves into topics like interpolation, integration techniques, and\nmatrix factorization, and explores various computational topics\nessential for data science and engineering.",
+    "prerequisites": "Math 262: Unified Calculus & Analytic Geometry IIPre-Requisite: 24 Earned HoursPrerequisite: Csci 111 or CIS 111 or Csci 251 or CIS 251 or Csci 113 or CIS 113 or Csci 256 or CIS 256 or Csci 259.   (Minimum grade: C-)Csci 111 or Csci 251",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-353"
+  },
+  {
+    "title": "Csci 354: Web Programming",
+    "credits": "3",
+    "description": "This course introduces programming for the World Wide Web. Topics\ninclude development principles and practice with current Web development\ntools such as HTML5, CSS, JavaScript, jQuery, Ajax, JSON, and PHP.",
+    "prerequisites": "Pre-Requisite: 24 Earned HoursPrerequisite: Csci 211 or CIS 211 or Csci 343 or Csci 356 or CIS 356",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-354"
+  },
+  {
+    "title": "Csci 356: Data Structures in Python",
+    "credits": "3",
+    "description": "This course will introduce data structures and their application using\nthe Python programming language. Abstract data types for stack, queue,\nvarious lists, trees and graphs will be studied. Built-in data\nstructures such as lists, dictionaries, and tuples will be used\nextensively.",
+    "prerequisites": "Pre-Requisite: 24 Earned HoursPre-requisite Csci 256 (C-) OR Csci 112 OR CIS 112 (C-) OR Csci 113 OR CIS 113 B-.",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-356"
+  },
+  {
+    "title": "Csci 361: Introduction to Computer Networks",
+    "credits": "3",
+    "description": "Analysis of loosely coupled computer communication protocols and network\nservices.  A generic network model is presented and compared to selected\nexamples of computer networks including the Internet TCP/IP and\nInternet-based applications.",
+    "prerequisites": "Pre-Requisite: 24 Earned HoursPrerequisite Csci 223 OR El E 235",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-361"
+  },
+  {
+    "title": "Csci 375: Introduction to Database Systems",
+    "credits": "3",
+    "description": "This course introduces database systems covering basic concepts and best\npractices. Topics include data models (e.g., relational, object-\noriented, NoSQL), normalization, SQL, security and privacy, current\ntrends in data management, and web-to-database application programming.",
+    "prerequisites": "Pre-Requisite: 24 Earned HoursPrerequisite: Csci 211 or CIS 211 or Csci 343 or Csci 356 or CIS 356",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-375"
+  },
+  {
+    "title": "Csci 387: Software Design and Development",
+    "credits": "3",
+    "description": "Study of techniques for the construction of large, complex software\nsystems, including project management, requirements analysis,\nspecification, design, development, testing, documentation, deployment,\nand maintenance.  Students develop software systems in a group structure\nthat simulates an industrial setting.",
+    "prerequisites": "Csci 223: Computer Org. &  Assembly Language(Minimum grade: C-)Csci 375: Introduction to Database SystemsPre-Requisite: 24 Earned HoursPrerequisite: Csci 211 (C-) OR CIS 211 (C-) OR Csci 356 (C-) OR CIS 356 (C-).",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-387"
+  },
+  {
+    "title": "Csci 390: Special Topics in Programming",
+    "credits": "3",
+    "description": "Study of topics in programming according to the interests of the\ninstructor and students.  May be repeated for credit when the topic\nvaries.",
+    "prerequisites": "Pre-Requisite: 24 Earned HoursPrerequisite: Csci 211 OR CIS 211 or Csci 356 or CIS 356",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-390"
+  },
+  {
+    "title": "Csci 391: Computer Graphics",
+    "credits": "3",
+    "description": "Introduction to the fundamentals of computer graphics, including\nelementary figures, shading, geometric transformations, graphics program\ndesign, and interactive techniques.",
+    "prerequisites": "Math 262: Unified Calculus & Analytic Geometry IICsci 223: Computer Org. &  Assembly LanguagePre-Requisite: 24 Earned HoursPrerequisite: Csci 211 OR CIS 211 or Csci 356 or CIS 356",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-391"
+  },
+  {
+    "title": "Csci 405: Computer Simulation",
+    "credits": "3",
+    "description": "Introduction to computer-based simulation and its applications to\nengineering, the sciences, and management.",
+    "prerequisites": "Math 262: Unified Calculus & Analytic Geometry IIPre-Requisite: 24 Earned HoursPrerequisite: Csci 211 OR CIS 211 or Csci 356 or CIS 356",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-405"
+  },
+  {
+    "title": "Csci 423: Introduction to Operating Systems",
+    "credits": "3",
+    "description": "Study of the basic concepts of operating systems, including user\ninterfaces, process management, state saving, interprocess\ncommunication, input/output, device drivers, timing services, memory\nmanagement, file management, and system abstractions.",
+    "prerequisites": "Prerequisite: Csci 211 (minimum grade C-) OR CIS 211 (minimum grade C-) OR  Csci 356 (minimum grade C-).Pre-Requisite: 24 Earned HoursPrerequisite Csci 223 C- OR El E 385 C-",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-423"
+  },
+  {
+    "title": "Csci 425: Code Generation and Optimization",
+    "credits": "3",
+    "description": "This course examines how machine code is generated and optimized to\nharness the computing power of modern processors. The course surveys a\nrange of topics including the compilation process and techniques,\ninterface between software and hardware, and program optimizations at\ndifferent levels (e.g., algorithm, high-level, and assembly level).",
+    "prerequisites": "Csci 223: Computer Org. &  Assembly LanguagePre-Requisite: 24 Earned HoursPrerequisite: Csci 211 OR CIS 211",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-425"
+  },
+  {
+    "title": "Csci 426: System Security",
+    "credits": "3",
+    "description": "This course covers the fundamentals of computer security with an\nemphasis on computer systems security. Areas covered include operating\nsystem security mechanisms, access control models, and other relevant\ntopics.",
+    "prerequisites": "Csci 325: Foundations of Computer Security(Minimum grade: C-)Csci 423: Introduction to Operating Systems(Minimum grade: C-)Pre-Requisite: 24 Earned Hours",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-426"
+  },
+  {
+    "title": "Csci 427: Network Security",
+    "credits": "3",
+    "description": "This course explores the concepts and methods of computer security with\nan emphasis on network security and the appropriate tools to identify\nand remedy vulnerabilities across leading network platforms. It\nemphasizes both offensive and defensive analysis tools, including\nscanners, sniffers, intrusion detection systems, and firewalls.",
+    "prerequisites": "Csci 325: Foundations of Computer Security(Minimum grade: C-)Csci 361: Introduction to Computer Networks(Minimum grade: C-)Engineering students only.Pre-Requisite: 24 Earned Hours",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-427"
+  },
+  {
+    "title": "Csci 431: Robotics Programming",
+    "credits": "3",
+    "description": "The goal of this course is to provide students hands-on experience in\nthe design, construction, and programming of robots that are driven by\nmicro-controllers (e.g., LEGO EV3 mobile robots). Upon completion of\nthis course, students should be able to develop a robotic system from\navailable modular units; to understand the role of knowledge\nrepresentation, problem solving, and learning in intelligent-system\nengineering; and to explain the basic concepts of robotics systems.",
+    "prerequisites": "Pre-Requisite: 24 Earned HoursPrerequisite: Csci 211 OR CIS 211 OR Csci 223 OR Csci 356 OR CIS 356.",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-431"
+  },
+  {
+    "title": "Csci 433: Algorithm and Data Structure Analysis",
+    "credits": "3",
+    "description": "Study of the design and analysis of algorithms and data structures.  The\ntopics include analysis techniques, sorting, searching, advanced data\nstructures, graphs, string matching, and NP-completeness.",
+    "prerequisites": "Math 301: Discrete MathematicsPrerequisite: Csci 211 (minimum grade C-) OR CIS 211 (minimum grade C-) OR Csci 356 (minimum grade C-) OR CIS 356 (minimum grade C-).Pre-Requisite: 24 Earned Hours",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-433"
+  },
+  {
+    "title": "Csci 443: Advanced Data Science",
+    "credits": "3",
+    "description": "This course extends the study in Csci 343 to processing and analysis of\nbig data.  Topics include machine learning, natural language processing,\nand data intensive processing techniques such as MapReduce, NoSQL, and\nother state-of-the-art frameworks.",
+    "prerequisites": "Csci 343: Fundamentals of Data SciencePre-Requisite: 24 Earned Hours",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-443"
+  },
+  {
+    "title": "Csci 444: Information Visualization",
+    "credits": "3",
+    "description": "This course introduces the principles and methods for data and\ninformation visualization. It emphasizes the evaluation of alternative\nvisualizations and the design of presentations that enable people to\nunderstand and analyze the information effectively. It addresses a\nvariety of data types, such as quantitative, categorical, topological,\ngeospatial, temporal, and unstructured data, and practical tools for\n rendering the visualizations.",
+    "prerequisites": "Pre-Requisite: 24 Earned HoursPrerequisite: Csci 211 or CIS 211 or Csci 343 or Csci 356 or CIS 356",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-444"
+  },
+  {
+    "title": "Csci 447: Immersive Media",
+    "credits": "3",
+    "description": "This course explores the applications, methods, and technologies for the\nrealization of immersive virtual environments. Students will develop\nvirtual reality applications, immersive virtual worlds, and interactive\nmedia. Topics include virtual reality, augmented reality, 3D content\nauthoring, motion tracking, and current trends in immersive media.",
+    "prerequisites": "Engineering students only.Pre-Requisite: 24 Earned HoursPrerequisite: Csci 211 or CIS 211 or Csci 343 or Csci 356 or CIS 356",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-447"
+  },
+  {
+    "title": "Csci 450: Formal and Programming Languages",
+    "credits": "3",
+    "description": "Introductory course to the theoretical foundations of computer science,\nincluding automata, formal language, history and concepts of programming\nlanguages.",
+    "prerequisites": "Csci 223: Computer Org. &  Assembly Language(Minimum grade: C-)Prerequisite: Csci 211 (minimum grade C-) OR CIS 211 (minimum grade C-) OR Csci 356 (minimum grade C-) OR CIS 356 (minimum grade C-).Pre-Requisite: 24 Earned Hours",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-450"
+  },
+  {
+    "title": "Csci 458: Mobile Application Development",
+    "credits": "3",
+    "description": "This course introduces the design and development of cross-platform\nmobile applications, focusing on effective design for mobile and desktop\nbrowsers and conversion to native applications for common mobile\ndevices, such as Android and iOS. Topics include user interface design,\nevent handling, application programming interfaces (APIs) for accessing\nhardware components (e.g., GPS, camera, accelerometer), and developing\nfor restricted resources, such as power, memory, and network speed.",
+    "prerequisites": "Pre-Requisite: 24 Earned HoursPrerequisite: Csci 211 or CIS 211 or Csci 343 or Csci 356 or CIS 356",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-458"
+  },
+  {
+    "title": "Csci 487: Senior Project",
+    "credits": "3",
+    "description": "Each student conducts an in-depth study of a current problem in\ncomputer science or related area.  Upon completion, the student presents\nthe results in both oral and written form.",
+    "prerequisites": "Pre-Requisite: 24 Earned HoursPrerequisite: Csci 387 OR Csci 443",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-487"
+  },
+  {
+    "title": "Csci 490: Special Topics",
+    "credits": "3",
+    "description": "Study of topics in computer science according to the interests of the\ninstructor and students. May be repeated for credit when the topic\nvaries.",
+    "prerequisites": "Csci 223: Computer Org. &  Assembly LanguagePre-Requisite: 24 Earned HoursPrerequisite: Csci 211 OR CIS 211 or Csci 356 or CIS 356",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-490"
+  },
+  {
+    "title": "Csci 491: Special Topics in Computer Security",
+    "credits": "3",
+    "description": "Study of topics in computer security according to the interests of the\ninstructor and students. May be repeated for credit when the topic\nvaries.",
+    "prerequisites": "Csci 325: Foundations of Computer Security(Minimum grade: C-)Pre-Requisite: 24 Earned Hours",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-491"
+  },
+  {
+    "title": "Csci 492: Special Topics in Data Science",
+    "credits": "3",
+    "description": "Study of topics in data science according to the interests of the\ninstructor and students. May be repeated for credit when the topic\nvaries.",
+    "prerequisites": "Pre-Requisite: 24 Earned HoursPrerequisite: Minimum grade of C- for all of the following courses: Csci 211 or CIS 211 or Csci 343 or Csci 356 or CIS 356",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-492"
+  },
+  {
+    "title": "Csci 500: Fundamental Concepts in Computing",
+    "credits": "3",
+    "description": "An intensive study of the formal concepts needed for graduate study in\ncomputer science.",
+    "prerequisites": "Graduate Program Level Only",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-500"
+  },
+  {
+    "title": "Csci 501: Fundamental Concepts in Systems",
+    "credits": "3",
+    "description": "An intensive study of the fundamental concepts of operating system and\nmachine structures and the associated programming techniques.",
+    "prerequisites": "Graduate Program Level Only",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-501"
+  },
+  {
+    "title": "Csci 502: Fundamental Concepts in Algorithms",
+    "credits": "3",
+    "description": "An intensive study of the fundamental concepts of algorithms and data\nstructures and the associated programming techniques.",
+    "prerequisites": "Graduate Program Level Only",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-502"
+  },
+  {
+    "title": "Csci 503: Fundamental Concepts in Languages",
+    "credits": "3",
+    "description": "An intensive study of the fundamental concepts of programming languages\nand the associated software system structures.",
+    "prerequisites": "Graduate Program Level Only",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-503"
+  },
+  {
+    "title": "Csci 517: Natural Language Processing",
+    "credits": "3",
+    "description": "Computer processing of natural language text at morphological, lexical,\nsyntactic, and semantic levels; algorithms and procedures for sentence\nparsing and analysis; applications of natural language processing\ntechniques.",
+    "prerequisites": "Prerequiste: Junior standing (60 hr).Prerequistie: Csci 211 or Csci 343",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-517"
+  },
+  {
+    "title": "Csci 520: Formal Theory of Computer Languages",
+    "credits": "3",
+    "description": "A detailed study of mathematical models of regular and context-free\nlanguages, nondeterministic and deterministic models; closure\nproperties, design algorithms, simplification of grammars.",
+    "prerequisites": "Pre-requisite: CSCI 311 or CSCI 500 or Graduate StandingPrerequiste: Junior standing (60 hr).",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-520"
+  },
+  {
+    "title": "Csci 521: Computer Systems Engineering",
+    "credits": "3",
+    "description": "Analysis of computer system components and manufacturing economics, and\nhow they influence design goals, direct architectural development,\ncreate hardware/software issues and modify implementation concepts, as\nwell as system and circuit packaging.",
+    "prerequisites": "Pre-requisite: CSCI 423 or CSCI 501 or Graduate StandingPrerequiste: Junior standing (60 hr).",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-521"
+  },
+  {
+    "title": "Csci 523: Operating Systems",
+    "credits": "3",
+    "description": "Design and construction of operating systems for shared program\ncomputers; various contemporary operating systems.",
+    "prerequisites": "Pre-requisite: CSCI 423 or CSCI 501 or Graduate StandingPrerequiste: Junior standing (60 hr).",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-523"
+  },
+  {
+    "title": "Csci 524: Distributed Operating System Design",
+    "credits": "3",
+    "description": "Analysis of operating system design principles for multiple computers; a\ndistributed operating system model is presented and compared to selected\nnetwork and distributed operating system examples.",
+    "prerequisites": "Pre-requisite: CSCI 423 or CSCI 501 or Graduate StandingPrerequiste: Junior standing (60 hr).",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-524"
+  },
+  {
+    "title": "Csci 525: Compiler Construction",
+    "credits": "3",
+    "description": "Introduction to techniques used in current compilers for computer\nlanguages; the syntactic specification of programming languages and an\nintroduction to syntax-directed compiling.",
+    "prerequisites": "Pre-requisite: CSCI 311 or CSCI 450 or CSCI 500 or CSCI 503 or Graduate StandingPrerequiste: Junior standing (60 hr).",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-525"
+  },
+  {
+    "title": "Csci 526: Parallel Computing",
+    "credits": "3",
+    "description": "This course explores the conceptual, theoretical, and practical issues\nraised by developing software for parallel environments and\narchitectures. Students will write several programs using different\nlanguages and platforms.",
+    "prerequisites": "Prerequiste: Junior standing (60 hr).Prerequisite:  Csci 211 or CIS 211 or graduate standing.Prerequisite: Csci 223 or graduate standing.",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-526"
+  },
+  {
+    "title": "Csci 530: Computer Architecture and Design",
+    "credits": "3",
+    "description": "This course studies the past evolution and current trends in computer\narchitecture and the factors influencing the design of hardware and\nsoftware components of computer systems. Topics include processor micro-\narchitecture, instruction set architecture, hardware parallelism, memory\nsubsystems, various processor design paradigms (superscalar, VLIW,\nmulticore, and GPU), and performance analysis.",
+    "prerequisites": "Csci 223: Computer Org. &  Assembly LanguagePrerequiste: Junior standing (60 hr).",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-530"
+  },
+  {
+    "title": "Csci 531: Artificial Intelligence",
+    "credits": "3",
+    "description": "Use of the computer in human problem solving.  Game theory, decision\ntrees, Markov decision problems, selected topics.",
+    "prerequisites": "Pre-requisite: CSCI 433 or CSCI 502 or Graduate StandingPrerequiste: Junior standing (60 hr).",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-531"
+  },
+  {
+    "title": "Csci 533: Analysis of Algorithms",
+    "credits": "3",
+    "description": "Introduction to the analysis of the efficiency of computer algorithms\nand concepts of computational complexity; sorting, matrix\nmultiplication, others.",
+    "prerequisites": "Pre-requisite: CSCI 433 or CSCI 502 or Graduate StandingPrerequiste: Junior standing (60 hr).",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-533"
+  },
+  {
+    "title": "Csci 541: Expert Systems and Logic Programming",
+    "credits": "3",
+    "description": "Expert systems and knowledge engineering.  Computer systems to emulate\nhuman expertise.  Rule-based and other knowledge representation\ntechniques.  Knowledge engineering as a model for expert systems\ndevelopment; logic programming for expert systems implementation.",
+    "prerequisites": "Prerequiste: Junior standing (60 hr).Prerequisite: Csci 211 OR CIS 211 or graduate standing.Prerequisite:  Math 301 or graduate standing",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-541"
+  },
+  {
+    "title": "Csci 543: Data Mining",
+    "credits": "3",
+    "description": "This course focuses on techniques for analyzing large datasets to\nidentify patterns of information and organize them for use in decision\nmaking. The topics include exploratory data analysis, classification,\nclustering, text mining, web mining, recommender systems, and neural\nnetworks as well as advanced topics covering the applications of data\nmining in cross-cutting domains.",
+    "prerequisites": "Prerequiste: Junior standing (60 hr).Prerequiste: Csci 211 or CIS 211 or Csci 343 or graduate standing.",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-543"
+  },
+  {
+    "title": "Csci 547: Digital Image Processing",
+    "credits": "3",
+    "description": "Present mathematical models for image formation. Introduce statistical,\ngeometric, and inferential methods to extract information from single\nand multiple images. Discuss applications of computer vision.",
+    "prerequisites": "Prerequiste: Junior standing (60 hr).Prerequisite: Math 262 or graduate standing.Prerequisite:  Csci 211 or CIS 211 or Csci 251 or graduate standing.",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-547"
+  },
+  {
+    "title": "Csci 550: Program Semantics and Derivation",
+    "credits": "3",
+    "description": "A study of formal methods for the specification, derivation, and\nverification of computer programs.  Predicate logic; notations for\nspecification of programs; programming language semantics; calculational\ntechniques for derivation of programs; case studies.",
+    "prerequisites": "Prerequiste: Junior standing (60 hr).Prerequisite: Csci 211 OR CIS 211 or graduate standing.Prerequisite:  Math 301 or graduate standing",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-550"
+  },
+  {
+    "title": "Csci 551: Computer System Performance Analysis",
+    "credits": "3",
+    "description": "Defining, parameterizing, and evaluating models of computer systems.\nThe emphasis is on applying queuing network models and simulation\ntechniques as tools to evaluate the performance of centralized and\ndistributed computer systems.",
+    "prerequisites": "Pre-requisite: (CSCI 423 and Math 375) or CSCI 501 or Graduate StandingPrerequiste: Junior standing (60 hr).",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-551"
+  },
+  {
+    "title": "Csci 554: Web Architecture and Programming",
+    "credits": "3",
+    "description": "Study of web architecture and programming tools. Analysis of\npublic-port protocols such as HTTP, embedded browser languages,\nbrowser extensions and interoperability. Server-side web\ncomponents, design, tuning, and security. Server components include\nHTTP, Common Gateway Interface, database engine, and extensions.",
+    "prerequisites": "Prerequiste: Junior standing (60 hr).Prerequisite: Csci 211 or CIS 211 or graduate standing.Prerequisite: Csci 223 or graduate standing.Csci 211 or Csci 223",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-554"
+  },
+  {
+    "title": "Csci 555: Functional Programming",
+    "credits": "3",
+    "description": "The principles and techniques of programming with functions.  Purely\nfunctional programming languages; recursion; higher-order functions;\nreduction models; strictness; type systems; list operations; infinite\ndata structures; program synthesis and transformation.",
+    "prerequisites": "Prerequiste: Junior standing (60 hr).Prerequisite: Csci 211 OR CIS 211 OR graduate standingPrerequisite: Math 301 OR graduate standing",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-555"
+  },
+  {
+    "title": "Csci 556: Multiparadigm Programming",
+    "credits": "3",
+    "description": "Principles and practices of software design and programming using\nlanguages that feature explicit and convenient support for\nmultiple programming paradigms (e.g., imperative, object-oriented, and\nfunctional).",
+    "prerequisites": "Prerequiste: Junior standing (60 hr).Prerequisite: (Csci 211 or CIS 211) and Csci 223 or graduate standing",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-556"
+  },
+  {
+    "title": "Csci 557: GPU Computing",
+    "credits": "3",
+    "description": "This course examines the use of GPU for general-purpose high performance\nparallel computing. It covers the key principles, practices, and\nhardware/software architectures for design of general-purpose, parallel\nprograms using GPUs. The course surveys and analyzes real-world\napplications that benefit from GPUs, and involves hands-on programming\nas well as performance profiling and analysis. The fundamentals of\nconcurrent programming and its challenges at algorithm and coding levels\nare also discussed.",
+    "prerequisites": "Prerequiste: Junior standing (60 hr).Pre-requisite (Csci 211 and Csci 223) OR (El E 385 and Csci 356) OR Graduate Standing",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-557"
+  },
+  {
+    "title": "Csci 561: Computer Networks",
+    "credits": "3",
+    "description": "Analysis of loosely coupled computer communication, communication\nprotocols, and network services; an open systems interconnection model\nis presented and compared to selected examples of computer networks.",
+    "prerequisites": "Prerequiste: Junior standing (60 hr).Prerequisite: Csci 423 or Csci 501 or graduate standing.",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-561"
+  },
+  {
+    "title": "Csci 562: Software Engineering I",
+    "credits": "3",
+    "description": "Software engineering paradigms, requirement analysis and specification,\ndesign of reliable software; data flow, data structure, and\nobject-oriented design methodologies.",
+    "prerequisites": "Pre-requisite: CSCI 387 or Graduate StandingPrerequiste: Junior standing (60 hr).",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-562"
+  },
+  {
+    "title": "Csci 575: Database Systems",
+    "credits": "3",
+    "description": "Review of database systems with special emphasis on data description and\nmanipulation languages; data normalization; functional dependencies;\ndatabase design; data integrity and security; distributed data\nprocessing; design and implementation of a comprehensive project.",
+    "prerequisites": "Pre-requisite: CSCI 423 or CSCI 475 or CSCI 501 or Graduate StandingPrerequiste: Junior standing (60 hr).",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-575"
+  },
+  {
+    "title": "Csci 581: Special Topics in Computer Science I",
+    "credits": "3",
+    "description": "May be repeated for credit.",
+    "prerequisites": "Prerequiste: Junior standing (60 hr).Prerequisite: Csci 211 OR CIS 211 OR graduate standingPrerequisite:  Csci 223 OR graduate standing",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-581"
+  },
+  {
+    "title": "Csci 582: Special Topics in Computer Science II",
+    "credits": "3",
+    "description": "May be repeated for credit.",
+    "prerequisites": "Prerequiste: Junior standing (60 hr).Prerequisite: (Csci 211 or CIS 211) and Csci 223 or graduate standing",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-582"
+  },
+  {
+    "title": "Csci 632: Machine Learning",
+    "credits": "3",
+    "description": "Presents the theory of and algorithms for constructing computer programs\nthat automatically learn from experience. Introduces key concepts from\nstatistics, artificial intelligence, and computational complexity to the\ndesign of practical machine learning systems.",
+    "prerequisites": null,
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-632"
+  },
+  {
+    "title": "Csci 658: Software Language Engineering",
+    "credits": "3",
+    "description": "Study of topics on the design, implementation, use, and\nevolution of artificial languages for the engineering of software.\nLanguages of interest include general-purpose programming languages,\ndomain-specific languages, and modeling languages as well as application\nprogramming interfaces and collections of design patterns that implicity\ndefine languages.",
+    "prerequisites": null,
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-658"
+  },
+  {
+    "title": "Csci 663: Software Families",
+    "credits": "3",
+    "description": "Study of concepts, methods, patterns, and tools for the analysis,\ndesign, and implementation of software families (e.g., software\nframeworks and software product lines) and other reusable, generic, and\nflexible programming artifacts.",
+    "prerequisites": null,
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-663"
+  },
+  {
+    "title": "Csci 665: Wireless and Sensor Networks",
+    "credits": "3",
+    "description": "This course uses wireless and sensor networks as case studies to enable\nstudents to understand and analyze loosely coupled computer networks,\nnetwork protocols, and network services. Building on basic knowledge\nabout wireless and sensor networks, the course explores recent research\non related topics.  Students learn to use appropriate embedded\nprogramming languages (e.g., nesC) and operating system platforms (e.g.,\nTinyOS) to develop embedded and network programs. Students also learn to\ndesign and implement mote-based wireless and sensor network systems by\ncompleting a series of programming projects (e.g.,\nmultiple access control, multi-hop routing, and data collection from\nsensors).",
+    "prerequisites": "Csci 561: Computer Networks",
+    "link": "https://catalog.olemiss.edu/engineering/computer-science/csci-665"
+  }
+]

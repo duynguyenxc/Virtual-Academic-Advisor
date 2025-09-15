@@ -1,0 +1,72 @@
+{
+  "program": "BS in Computer Science",
+  "catalog_year": "2024-2025",
+  "plan": {
+    "freshman": {
+      "fall": [
+        {"course": "CSCI 111", "credits": 3, "prerequisites": "ACT Math ≥22 or MATH 121"},
+        {"course": "MATH 261", "credits": 3, "prerequisites": "ACT Math ≥24 or MATH 125 (B)"},
+        {"course": "WRIT 100 or WRIT 101", "credits": 3},
+        {"course": "Social Science", "credits": 3},
+        {"course": "Fine Arts", "credits": 3}
+      ],
+      "spring": [
+        {"course": "CSCI 112", "credits": 3, "prerequisites": "CSCI 111 (C-)"},
+        {"course": "MATH 262", "credits": 3, "prerequisites": "MATH 261 (C)"},
+        {"course": "WRIT 102 or LIBA 102", "credits": 3},
+        {"course": "SPCH 102 or 105", "credits": 3},
+        {"course": "Humanities", "credits": 3}
+      ]
+    },
+    "sophomore": {
+      "fall": [
+        {"course": "CSCI 211", "credits": 3, "prerequisites": "CSCI 112 (C-)"},
+        {"course": "Literature Survey (ENG 220–226)", "credits": 3},
+        {"course": "MATH 301", "credits": 3, "prerequisites": "MATH 261"},
+        {"course": "Lab Science I", "credits": 4},
+        {"course": "Minor/Tech Elective", "credits": 3}
+      ],
+      "spring": [
+        {"course": "CSCI 223", "credits": 3, "prerequisites": "CSCI 112 (C-)"},
+        {"course": "MATH 302 or MATH 401", "credits": 3, "prerequisites": "MATH 301"},
+        {"course": "FA/Language/Humanities", "credits": 3},
+        {"course": "Lab Science II (same sequence)", "credits": 4},
+        {"course": "Minor/Tech Elective", "credits": 3}
+      ]
+    },
+    "junior": {
+      "fall": [
+        {"course": "CSCI 300", "credits": 1, "notes": "Fall only"},
+        {"course": "CSCI 423", "credits": 3, "prerequisites": "CSCI 211, 223"},
+        {"course": "MATH 375", "credits": 3, "prerequisites": "MATH 261"},
+        {"course": "EL E 235", "credits": 3},
+        {"course": "EL E 236", "credits": 1},
+        {"course": "Minor/Tech Elective", "credits": 3}
+      ],
+      "spring": [
+        {"course": "CSCI 387", "credits": 3, "prerequisites": "CSCI 211, 223"},
+        {"course": "CSCI 433", "credits": 3, "prerequisites": "CSCI 211, MATH 301"},
+        {"course": "CSCI 300+ Elective", "credits": 3},
+        {"course": "MATH 263 or 319", "credits": 3, "prerequisites": "MATH 262"},
+        {"course": "Social Science", "credits": 3}
+      ]
+    },
+    "senior": {
+      "fall": [
+        {"course": "CSCI 450", "credits": 3, "prerequisites": "CSCI 211, 223"},
+        {"course": "CSCI 300+ Elective", "credits": 3},
+        {"course": "CSCI 300+ Elective", "credits": 3},
+        {"course": "Minor/Tech Elective", "credits": 3},
+        {"course": "Minor/Tech Elective", "credits": 3},
+        {"course": "Science Elective", "credits": 3}
+      ],
+      "spring": [
+        {"course": "CSCI 487", "credits": 3, "prerequisites": "≥6 credits CSCI 300+"},
+        {"course": "CSCI 300+ Elective", "credits": 3},
+        {"course": "CSCI 300+ Elective", "credits": 3},
+        {"course": "Minor/Tech Elective", "credits": 3},
+        {"course": "Science Elective", "credits": 3}
+      ]
+    }
+  }
+}

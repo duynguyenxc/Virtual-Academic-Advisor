@@ -1,0 +1,152 @@
+{
+  "program": "BS in Computer Science",
+  "catalog_year": "2024-2025",
+  "min_total_credits": 127,
+  "blocks": {
+    "general_education": {
+      "requirements": [
+        {
+          "name": "First-Year Writing I",
+          "credits": 3,
+          "options": ["WRIT 100", "WRIT 101", "HON 101"]
+        },
+        {
+          "name": "First-Year Writing II",
+          "credits": 3,
+          "options": ["WRIT 102", "LIBA 102", "HON 102"]
+        },
+        {
+          "name": "Literature Survey",
+          "credits": 3,
+          "options": ["ENG 220","ENG 221","ENG 222","ENG 223","ENG 224","ENG 225","ENG 226"]
+        },
+        {
+          "name": "Fine Arts",
+          "credits": 3,
+          "allowed_prefixes": ["AH","MUS","DANC","THEA","LIBA"],
+          "notes": "Lecture courses only (e.g., MUS 101–105, DANC 200, THEA 201–202, LIBA 130, 204, 314)"
+        },
+        {
+          "name": "Social Sciences",
+          "credits": 6,
+          "allowed_prefixes": ["ANTH","ECON","LIBA","POL","PSY","SOC","HON"],
+          "notes": "Choose 2 courses (e.g., LIBA 203, 313)"
+        },
+        {
+          "name": "Humanities",
+          "credits": 3,
+          "allowed_prefixes": ["AAS","CLC","ENVS","GST","HST","LIBA","PHIL","REL","SST","HON"]
+        },
+        {
+          "name": "FA/Language/Humanities",
+          "credits": 3,
+          "allowed_prefixes": ["AH","MUS","DANC","THEA","AAS","CLC","ENVS","GST","HST","LIBA","PHIL","REL","SST","ARAB","CHIN","FREN","GER","GREK","JAPN","KOR","LAT","PORT","RUSS","SPAN","SWA"]
+        },
+        {
+          "name": "Speech",
+          "credits": 3,
+          "options": ["SPCH 102","SPCH 105"]
+        }
+      ]
+    },
+    "math": {
+      "requirements": [
+        {"course": "MATH 261","credits": 3},
+        {"course": "MATH 262","credits": 3,"prerequisites":["MATH 261"]},
+        {"course": "MATH 301","credits": 3,"prerequisites":["MATH 261"]},
+        {"course": "MATH 302 or 401","credits": 3,"prerequisites":["MATH 301"]},
+        {"course": "MATH 263 or 319","credits": 3,"prerequisites":["MATH 262"]},
+        {"course": "MATH 375","credits": 3,"prerequisites":["MATH 261"]}
+      ]
+    },
+    "science": {
+      "requirements": [
+        {
+          "name": "Lab Science",
+          "credits": 8,
+          "allowed_prefixes": ["CHEM","PHYS","BISC"],
+          "options": [
+            "CHEM 105","CHEM 106","CHEM 115","CHEM 116",
+            "PHYS 211","PHYS 212","PHYS 221","PHYS 222",
+            "BISC 160","BISC 161","BISC 162","BISC 163"
+          ],
+          "notes": "Must be two courses in the same sequence + labs"
+        },
+        {
+          "name": "Additional Science Elective",
+          "credits": 3,
+          "options": [
+            "ASTR 103","ASTR 104","CHEM 221","CHEM 222",
+            "GEOL 101","GEOL 102","GEOL 103","GEOL 104","GEOL 105","GEOL 107","GEOL 120"
+          ],
+          "allowed_prefixes": ["ASTR","CHEM","GEOL","BISC","PHYS"],
+          "notes": "Not both GEOL 101 and 104; 300+ science also allowed"
+        }
+      ]
+    },
+    "engineering_support": {
+      "requirements": [
+        {"course": "ENGR 101","credits": 1},
+        {"course": "ENGR 111","credits": 2},
+        {"course": "EL E 235","credits": 3},
+        {"course": "EL E 236","credits": 1}
+      ]
+    },
+    "csci_core": {
+      "requirements": [
+        {"course": "CSCI 111","credits": 3},
+        {"course": "CSCI 112","credits": 3,"prerequisites":["CSCI 111"]},
+        {"course": "CSCI 211","credits": 3,"prerequisites":["CSCI 112"]},
+        {"course": "CSCI 223","credits": 3,"prerequisites":["CSCI 112"]},
+        {"course": "CSCI 300","credits": 1,"notes":"Fall only"},
+        {"course": "CSCI 311","credits": 3,"prerequisites":["CSCI 112"]},
+        {"course": "CSCI 375","credits": 3,"prerequisites":["MATH 261"]},
+        {"course": "CSCI 387","credits": 3,"prerequisites":["CSCI 211","CSCI 223"]},
+        {"course": "CSCI 423","credits": 3,"prerequisites":["CSCI 211","CSCI 223"]},
+        {"course": "CSCI 433","credits": 3,"prerequisites":["CSCI 211","MATH 301"]},
+        {"course": "CSCI 450","credits": 3,"prerequisites":["CSCI 211","CSCI 223"]},
+        {"course": "CSCI 487","credits": 3,"prerequisites":[">=6 credits of CSCI 300+"]}
+      ]
+    },
+    "electives": {
+      "requirements": [
+        {
+          "name": "CSCI 300+ Electives",
+          "credits": 15,
+          "filter": {"prefix":"CSCI","min_level":300}
+        },
+        {
+          "name": "Minor or Technical Electives",
+          "credits": 18,
+          "notes": "Any approved minor OR tech electives approved by advisor"
+        }
+      ]
+    },
+    "emphases": {
+      "data_science": {
+        "requirements": [
+          {"course": "CSCI 343","credits": 3},
+          {"course": "CSCI 443","credits": 3},
+          {
+            "name": "Additional Data Science Electives",
+            "credits": 9,
+            "options": ["CSCI 345","CSCI 353","CSCI 444","CSCI 492","CSCI 517","CSCI 543"]
+          }
+        ]
+      },
+      "security": {
+        "requirements": [
+          {"course": "CSCI 325","credits": 3},
+          {"course": "CSCI 361","credits": 3},
+          {"course": "CSCI 426","credits": 3},
+          {"course": "CSCI 427","credits": 3},
+          {
+            "name": "Additional Security Elective",
+            "credits": 3,
+            "options": ["CSCI 323","CSCI 491","CSCI 523","CSCI 561"]
+          }
+        ]
+      }
+    }
+  }
+}
