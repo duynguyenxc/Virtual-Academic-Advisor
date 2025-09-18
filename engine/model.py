@@ -14,26 +14,22 @@
 from dataclasses import dataclass, field
 from typing import List, Dict, Optional, Literal
 
-# ------------------------------------------------------------
 # Course & Catalog
-# ------------------------------------------------------------
 
 @dataclass
 class Course:
     """
     Represents a single course as listed in the catalog.
     """
-    code: str                                # e.g., "CSCI 111"
-    name: str                                # e.g., "Computer Science I"
-    credits: int                             # credit hours
-    description: Optional[str] = None        # course description (may be long text)
-    prerequisites: List[str] = field(default_factory=list)  # list of prerequisite course codes
+    code: str                                #e.g., "CSCI 111"
+    name: str                                #e.g., "Computer Science I"
+    credits: int                             #credit hours
+    description: Optional[str] = None        #course description(may be long text)
+    prerequisites: List[str] = field(default_factory=list)  #list of prerequisite course codes
     semester_offered: Optional[List[Literal["Fall","Spring","Summer"]]] = None
-    attributes: List[str] = field(default_factory=list)     # tags like "Lab Science", "Elective"
+    attributes: List[str] = field(default_factory=list)     #tags like "Lab Science", "Elective"
 
-# ------------------------------------------------------------
 # Degree Requirement Blocks
-# ------------------------------------------------------------
 
 @dataclass
 class Requirement:
@@ -46,12 +42,12 @@ class Requirement:
     """
     name: str
     credits: int
-    options: Optional[List[str]] = None                  # explicit course options
-    allowed_prefixes: Optional[List[str]] = None         # e.g., ["MUS","THEA"]
-    exclusions: Optional[List[str]] = None               # strings to exclude (e.g., "studio")
-    prerequisites: Optional[List[str]] = None            # prereq course codes
-    filter: Optional[Dict] = None                        # e.g., {"prefix":"CSCI","min_level":300}
-    notes: Optional[str] = None                          # free-form note for human/LLM
+    options: Optional[List[str]] = None               #explicit course options
+    allowed_prefixes: Optional[List[str]] = None        #e.g., ["MUS","THEA"]
+    exclusions: Optional[List[str]] = None              #strings to exclude (e.g., "studio")
+    prerequisites: Optional[List[str]] = None           #prereq course codes
+    filter: Optional[Dict] = None                     #e.g., {"prefix":"CSCI","min_level":300}
+    notes: Optional[str] = None                       #free-form note for human/LLM
 
 @dataclass
 class RequirementBlock:
@@ -65,9 +61,7 @@ class RequirementBlock:
     name: str
     requirements: List[Requirement]
 
-# ------------------------------------------------------------
 # Student Profile (input)
-# ------------------------------------------------------------
 
 @dataclass
 class StudentProfile:
@@ -76,16 +70,14 @@ class StudentProfile:
     This will typically be provided by the API (from chat input or UI).
     """
     catalog_year: str
-    courses_done: List[str] = field(default_factory=list)  # courses already completed
-    remaining_terms: int = 8                               # how many terms left (default = 4 years)
-    target_hours: int = 16                                 # preferred average load per term
-    max_hours: int = 19                                    # maximum hours allowed per term
-    gpa: Optional[float] = None                            # current GPA, for overload checks
-    emphasis: Optional[str] = None                         # "data_science", "computer_security", or None
+    courses_done: List[str] = field(default_factory=list)  #courses already completed
+    remaining_terms: int = 8               #how many terms left (default = 4 years)
+    target_hours: int = 16           # preferred average load per term
+    max_hours: int = 19        #maximum hours allowed per term
+    gpa: Optional[float] = None            #current GPA, for overload checks
+    emphasis: Optional[str] = None    #"data_science", "computer_security", or None
 
-# ------------------------------------------------------------
-# Plan Output (engine -> API)
-# ------------------------------------------------------------
+# Plan Output(engine -> API)
 
 @dataclass
 class PlanRow:
@@ -94,9 +86,9 @@ class PlanRow:
     """
     course: str
     hours: int
-    prereq: List[str] = field(default_factory=list)        # prerequisites for this course
-    notes: List[str] = field(default_factory=list)         # advisory notes (e.g., "Fall only")
-    prereq_met: Optional[bool] = None                     # computed by prereq checker
+    prereq: List[str] = field(default_factory=list)    #prerequisites for this course
+    notes: List[str] = field(default_factory=list)     #advisory notes (e.g., "Fall only")
+    prereq_met: Optional[bool] = None    #computed by prereq checker
 
 @dataclass
 class PlanTerm:
@@ -118,5 +110,5 @@ class PlanResult:
     """
     catalog_year: str
     remaining_terms: int
-    terms: List[PlanTerm]                                 # full plan (remaining terms only)
-    audit: Dict                                           # audit summary (credits completed, missing blocks, warnings)
+    terms: List[PlanTerm] #full plan (remaining terms only)
+    audit: Dict  #audit summary (credits completed, missing blocks, warnings)
