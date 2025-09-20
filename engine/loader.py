@@ -7,7 +7,6 @@
 import sys
 from pathlib import Path
 
-# đảm bảo project root (một cấp trên thư mục engine) có trong sys.path
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
@@ -15,12 +14,9 @@ if str(ROOT) not in sys.path:
 import json
 import re
 from typing import Dict, List, Any, Optional
-
 from engine.model import Course, Requirement, RequirementBlock
 
-# ------------------------------------------------------------
 # Path setup
-# ------------------------------------------------------------
 BASE = Path(__file__).resolve().parents[1] / "data" / "olemiss" / "bscs" / "2024-2025"
 
 COURSE_FILES = [
@@ -32,10 +28,7 @@ DEGREE_REQUIREMENTS_FILE = BASE / "degree_requirements.json"
 FOUR_YEAR_PLAN_FILE = BASE / "four_year_plan.json"
 POLICIES_FILE = BASE / "policies.json"
 
-# ------------------------------------------------------------
 # Loader helpers
-# ------------------------------------------------------------
-
 def load_json(path: Path) -> Any:
     """Load JSON file safely; return empty dict/list on missing or parse error."""
     if not path.exists():
@@ -106,10 +99,7 @@ def _normalize_prereqs(raw: Any) -> List[str]:
     parts = [p.strip() for p in parts if p.strip()]
     return parts if parts else [s]
 
-# ------------------------------------------------------------
 # Loader functions
-# ------------------------------------------------------------
-
 def load_courses() -> Dict[str, Course]:
     """
     Load courses from multiple JSON files and merge into a dictionary.
@@ -121,7 +111,7 @@ def load_courses() -> Dict[str, Course]:
         if not raw:
             continue
         for c in raw:
-            # Some sources use 'code', others include code in 'title' or 'name'
+            #some sources use 'code', others include code in 'title' or 'name'
             raw_code = c.get("code")
             title_field = c.get("title") or c.get("name") or ""
             code = _extract_code(raw_code, title_field)
