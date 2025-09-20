@@ -16,7 +16,7 @@ import re
 from typing import Dict, List, Any, Optional
 from engine.model import Course, Requirement, RequirementBlock
 
-# Path setup
+#path setup
 BASE = Path(__file__).resolve().parents[1] / "data" / "olemiss" / "bscs" / "2024-2025"
 
 COURSE_FILES = [
@@ -28,7 +28,7 @@ DEGREE_REQUIREMENTS_FILE = BASE / "degree_requirements.json"
 FOUR_YEAR_PLAN_FILE = BASE / "four_year_plan.json"
 POLICIES_FILE = BASE / "policies.json"
 
-# Loader helpers
+#loader helpers
 def load_json(path: Path) -> Any:
     """Load JSON file safely; return empty dict/list on missing or parse error."""
     if not path.exists():
@@ -56,7 +56,7 @@ def _extract_name(title: Optional[str]) -> str:
     """Return a cleaned course name (remove leading code if present)."""
     if not title:
         return ""
-    # Remove leading code + optional colon
+    #remove leading code+optional colon
     return re.sub(r'^[A-Za-z]{2,4}\s*\d{3}[A-Za-z]?\s*[:\-–]\s*', '', title, flags=re.IGNORECASE).strip()
 
 def _parse_credits(raw: Any) -> int:
@@ -71,14 +71,14 @@ def _parse_credits(raw: Any) -> int:
     s = str(raw).strip()
     if not s:
         return 0
-    # Look for patterns like "3 credits", "3-4 credits", "3.0 credits"
+    #look for patterns like "3 credits", "3-4 credits", "3.0 credits"
     m = _credits_re.search(s)
     if m:
         try:
             return int(float(m.group(1)))
         except Exception:
             pass
-    # fallback: any first number
+    #fallback: any first number
     m2 = _numeric_re.search(s)
     if m2:
         try:
@@ -94,12 +94,12 @@ def _normalize_prereqs(raw: Any) -> List[str]:
     if isinstance(raw, list):
         return [str(x).strip() for x in raw if str(x).strip()]
     s = str(raw).strip()
-    # split common separators but keep phrase if it's a sentence
+    #split common separators but keep phrase if it's a sentence
     parts = re.split(r'\s*;\s*|\s*\.\s*|\s*,\s*or\s*|\s*,\s*and\s*|\s*,\s*', s)
     parts = [p.strip() for p in parts if p.strip()]
     return parts if parts else [s]
 
-# Loader functions
+#loader functions
 def load_courses() -> Dict[str, Course]:
     """
     Load courses from multiple JSON files and merge into a dictionary.
@@ -145,7 +145,7 @@ def load_degree_requirements() -> Dict[str, RequirementBlock]:
     for block_name, block in (data.get("blocks") or {}).items():
         reqs: List[Requirement] = []
         for r in block.get("requirements", []):
-            # safe parsing of credits
+            #safe parsing of credits
             try:
                 cred = int(r.get("credits") or 0)
             except Exception:
@@ -172,4 +172,4 @@ def load_four_year_plan() -> dict:
 def load_policies() -> dict:
     """Load program policies (raw JSON dict)."""
     return load_json(POLICIES_FILE) or {}
-# ...existing code...
+# ......
