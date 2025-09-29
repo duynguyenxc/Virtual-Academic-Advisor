@@ -1,6 +1,6 @@
 from engine.model import Course, PlanRow, PlanTerm, PlanResult
 
-# Fake test
+#fake test
 c1 = Course(code="CSCI 111", name="Computer Science I", credits=3)
 row1 = PlanRow(course="CSCI 111", hours=3)
 term1 = PlanTerm(name="Fall 2025", rows=[row1])
